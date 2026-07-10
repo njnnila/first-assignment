@@ -278,3 +278,17 @@ hr {
     font-size: 2.5rem;
     font-weight: 400;
 }
+/* footer style */
+.footer{
+    height: 300px;
+    border: 2px solid red;
+    background-color: black;
+}
+.footer li{
+    color: white;
+    list-style: none;
+}
+.footer-title{
+    justify-content: space-between;
+    margin: 20px 80px;
+}
