@@ -1,0 +1,91 @@
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+/* navbar style */
+
+.code-icon {
+    background-color: black;
+    color: blue;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.nav-div1 {
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-div2 {
+    gap: 24px;
+}
+
+.nav-div2 div>a {
+    text-decoration: none;
+}
+
+.navbar {
+    align-items: center;
+    justify-content: space-between;
+    width: 1321px;
+    margin: 0 auto;
+}
+
+
+/* shared style */
+.display {
+    display: flex;
+}
+
+.color-gray {
+    color: #575757;
+}
+
+.primary-btn {
+    color: white;
+    background-color: #1D4ED8;
+    padding: 12px 41px;
+    border-radius: 10px;
+    border-style: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+/* banner style */
+.banner-container {
+    margin: 0px 0px;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url("../assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1551px;
+    height: 786px;
+    text-align: center;
+}
+
+.banner-description,
+.banner-title {
+    color: white;
+}
+
+.banner-title {
+    font-size: 5rem;
+    padding-top: 136px;
+}
+
+.banner-description {
+    font-size: 1.5rem;
+    font-weight: 400px;
+}
+.second-btn{
+    margin-top: 278px;
+    padding: 25px 62px;
+    font-size: 1.5rem;
+}
