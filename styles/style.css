@@ -281,8 +281,8 @@ hr {
 /* footer style */
 .footer{
     height: 300px;
-    border: 2px solid red;
     background-color: black;
+    margin-top: 40px;
 }
 .footer li{
     color: white;
