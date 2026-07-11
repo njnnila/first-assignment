@@ -3,47 +3,36 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
-
 main {
     width: 1400px;
     margin: 0 auto;
 }
-
 /* navbar style */
-
 .code-icon {
     background-color: black;
     color: blue;
     padding: 5px;
     border-radius: 8px;
 }
-
 span {
     font-style: italic;
 }
-
 .nav-div1 {
     align-items: center;
     gap: 8px;
 }
-
 .nav-div2 {
     gap: 24px;
 }
-
 .nav-div2 div>a {
     text-decoration: none;
 }
-
 .navbar {
     align-items: center;
     justify-content: space-between;
     width: 1321px;
     margin: 0 auto;
-
 }
-
-
 /* shared style */
 .display {
     display: flex;
@@ -58,7 +47,6 @@ span {
     justify-content: center;
     align-items: center;
 }
-
 .primary-btn {
     color: white;
     background-color: #1D4ED8;
@@ -68,7 +56,6 @@ span {
     font-weight: bold;
     font-size: 1rem;
 }
-
 .spot-btn {
     width: 300px;
     height: 45px;
@@ -80,7 +67,6 @@ span {
     background-color: white;
     margin: 20px auto;
 }
-
 /* banner style */
 .banner-container {
     margin: 0px 0px;
@@ -88,7 +74,6 @@ span {
         linear-gradient(rgba(0, 0, 0, 0.7),
             rgba(0, 0, 0, 0.7)),
         url("../assets/banner.jpg");
-
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -96,120 +81,96 @@ span {
     height: 786px;
     text-align: center;
 }
-
 .banner-description,
 .banner-title {
     color: white;
 }
-
 .banner-title {
     font-size: 5rem;
     padding-top: 136px;
 }
-
 .banner-description {
     font-size: 1.5rem;
     font-weight: 400px;
 }
-
 .second-btn {
     margin-top: 258px;
     padding: 25px 62px;
     font-size: 1.5rem;
 }
-
 /* speakers style */
 .speaker-box {
     width: 644px;
     height: 460px;
     border: 1.5px solid #E5E7EB;
     border-radius: 12px;
-
 }
-
 .speaker-box img {
     border-radius: 12px 12px 0 0;
     width: 100%;
 }
-
 .speaker-box-title {
     color: #1D4ED8;
     font-weight: 600;
     font-size: 12px;
     margin-left: 24px;
 }
-
 .speaker-profession {
     font-weight: 400;
     font-size: 14px;
     margin-left: 24px;
 }
-
 .speakers-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 20px;
 }
-
 .speaker-name {
     margin-left: 24px;
 }
-
 .speaker-caption {
     font-weight: bold;
     font-size: 4rem;
     text-align: center;
 }
-
 /* spot section style */
-
 .spot-box {
     border: 1px solid #E5E7EB;
     width: 370px;
     height: 440px;
     border-radius: 12px;
 }
-
 .list-item {
     font-size: 1rem;
     font-weight: 400;
 }
-
 .list-item::marker {
     color: #1D4ED8;
 }
-
 ul li {
     line-height: 30px;
 }
-
 .spot-container {
     width: 1300px;
     margin: 0 auto;
     justify-content: space-evenly;
 }
-
 .spot-box2 {
     background-color: black;
 }
-
 .spot-btn2 {
     background-color: #1D4ED8;
     color: white;
 }
-
 .spot-btn3 {
     border: 1px solid black;
     color: black;
 }
-
 hr {
     margin: 0 20px;
 }
-
 /* newslwtter section style--ai generated */
 .all-news{
-   
     width: 1200px;
     min-height: 600px;
     margin: 0 auto;
@@ -222,20 +183,16 @@ hr {
     margin-top: 50px;
     margin: 80px 30px;
 }
-
 .newsletter-form {
     display: flex;
     align-items: center;
-
     width: 500px;
     max-width: 100%;
-
     background: #fff;
     border: 1px solid #e5e7eb;
     border-radius: 12px;
     padding-left: 20px;
     overflow: hidden;
-
     box-shadow: 0 8px 20px rgba(0, 0, 0, .08);
 }
 
@@ -243,7 +200,6 @@ hr {
     color: #9ca3af;
     font-size: 20px;
 }
-
 .newsletter-form input {
     flex: 1;
     border: none;
@@ -251,7 +207,6 @@ hr {
     padding: 18px 15px;
     font-size: 16px;
 }
-
 .newsletter-form button {
     padding: 18px 32px;
     background: #4f46e5;
@@ -261,7 +216,6 @@ hr {
     position: relative;
     height: 55px;  
 }
-
 .newsletter-form button:hover {
     background: #4338ca;
 }
@@ -272,7 +226,7 @@ hr {
     text-align: center;
     margin-top: 70px;
     color: #93C5FD;
-    
+  
 }
 .news-title{
     font-size: 2.5rem;
